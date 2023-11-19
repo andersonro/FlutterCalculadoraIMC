@@ -20,6 +20,11 @@ class _HomePageState extends State<HomePage> {
                 return CardCalculoImc();
               },
           ),
+          floatingActionButton: FloatingActionButton(
+            onPressed: (){},
+            child: Icon(Icons.add, color: Colors.white),
+            backgroundColor: Colors.indigo,
+          ),
         ),
     );
   }
